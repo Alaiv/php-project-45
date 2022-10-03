@@ -2,7 +2,6 @@
 
 namespace BrainGames\CLi;
 
-
 use function cli\line;
 use function cli\prompt;
 
