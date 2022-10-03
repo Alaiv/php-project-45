@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/code",
+    "description": "brain-games-cli",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleks",
+            "email": "lasacc4@yandex.ru"
+        }
+    ],
+    "require": {}
+}
