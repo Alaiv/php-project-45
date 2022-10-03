@@ -1,7 +1,8 @@
 {
   "name": "hexlet/code",
   "bin": [
-    "bin/brain-games"
+    "bin/brain-games",
+    "bin/brain-even"
   ],
   "description": "brain-games-cli",
   "license": "MIT",
@@ -11,7 +12,9 @@
       "\\cli\\": "vendor/wp-cli/php-cli-tools/lib/"
     },
     "files": [
-      "src/Cli.php"
+      "src/Cli.php",
+      "src/Greeting.php",
+      "src/games/brainEven.php"
     ]
   },
   "authors": [
