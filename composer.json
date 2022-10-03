@@ -1,20 +1,26 @@
 {
-    "name": "hexlet/code",
-    "bin": [
-        "bin/brain-games"
-    ],
-    "description": "brain-games-cli",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+  "name": "hexlet/code",
+  "bin": [
+    "bin/brain-games"
+  ],
+  "description": "brain-games-cli",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BrainGames\\CLi\\": "src",
+      "\\cli\\": "vendor/wp-cli/php-cli-tools/lib/"
     },
-    "authors": [
-        {
-            "name": "Aleks",
-            "email": "lasacc4@yandex.ru"
-        }
-    ],
-    "require": {}
+    "files": [
+      "src/Cli.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Aleks",
+      "email": "lasacc4@yandex.ru"
+    }
+  ],
+  "require": {
+    "wp-cli/php-cli-tools": "^0.11.15"
+  }
 }
