@@ -21,6 +21,5 @@ function calculate(): array
         '*' => [(string)($n1 * $n2), "{$n1} * {$n2}"],
         '+' => [(string)($n1 + $n2), "{$n1} + {$n2}"],
         '-' => [(string)($n1 - $n2), "{$n1} - {$n2}"],
-        default => [null, null],
     };
 }
