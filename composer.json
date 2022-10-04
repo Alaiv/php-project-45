@@ -2,19 +2,23 @@
   "name": "hexlet/code",
   "bin": [
     "bin/brain-games",
-    "bin/brain-even"
+    "bin/brain-even",
+    "bin/brain-calc"
   ],
   "description": "brain-games-cli",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "BrainGames\\CLi\\": "src",
+      "BrainGames\\Cli\\": "src",
+      "BrainGames\\Engine\\": "src",
       "\\cli\\": "vendor/wp-cli/php-cli-tools/lib/"
     },
     "files": [
       "src/Cli.php",
       "src/Greeting.php",
-      "src/games/brainEven.php"
+      "src/Games/brainEven.php",
+      "src/Games/brainCalc.php",
+      "src/Engine.php"
     ]
   },
   "authors": [
