@@ -3,6 +3,7 @@
 namespace BrainGames\Engine;
 
 use function BrainGames\BrainEven\getEvenNumber;
+use function BrainGames\BrainGcd\getGcdValue;
 use function BrainGames\BrainCalc\calculate;
 use function BrainGames\Greeting\getUserName;
 use function cli\line;
@@ -37,6 +38,7 @@ function chooseGame(string $type): array
     return match ($type) {
         'even' => getEvenNumber(),
         'calc' => calculate(),
+        'gcd' => getGcdValue(),
         default => ['Wrong', 'Type'],
     };
 }
