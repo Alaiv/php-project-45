@@ -5,6 +5,7 @@ namespace BrainGames\Engine;
 use function BrainGames\BrainEven\getEvenNumber;
 use function BrainGames\BrainGcd\getGcdValue;
 use function BrainGames\BrainCalc\calculate;
+use function BrainGames\BrainProgression\getProgression;
 use function BrainGames\Greeting\getUserName;
 use function cli\line;
 use function cli\prompt;
@@ -39,6 +40,7 @@ function chooseGame(string $type): array
         'even' => getEvenNumber(),
         'calc' => calculate(),
         'gcd' => getGcdValue(),
+        'progression' => getProgression(),
         default => ['Wrong', 'Type'],
     };
 }
